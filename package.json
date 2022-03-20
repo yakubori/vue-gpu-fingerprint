@@ -12,6 +12,10 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yakubori/vue-gpu-fingerprint.git"
+  },
   "keywords": [
     "vue",
     "gpu",
