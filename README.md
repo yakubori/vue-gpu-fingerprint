@@ -12,7 +12,7 @@ The event-emit occurs when the FingerPrint component first mounts.
 
 ```typescript
 import { createApp, h } from "vue"
-import FingerPrint from './index'
+import FingerPrint from 'vue-gpu-fingerprint'
 
 const app = createApp({
     render() {
