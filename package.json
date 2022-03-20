@@ -1,0 +1,36 @@
+{
+  "name": "vue-gpu-fingerprint",
+  "version": "0.0.1",
+  "description": "A simple browser gpu-fingerprint component for Vue.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node serve.js",
+    "build": "npm run clean && node build.js && tsc --emitDeclarationOnly --outDir dist",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "gpu",
+    "fingerprint",
+    "webgl"
+  ],
+  "author": "Rick Yakubowski <ryakubowski@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.14.27",
+    "live-server": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "files": [
+    "dist"
+  ]
+}
